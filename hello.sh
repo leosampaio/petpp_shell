@@ -10,4 +10,4 @@
 
 
 # dá oi pra galera
-echo Oi mundo!
+@echo Oi mundo!
