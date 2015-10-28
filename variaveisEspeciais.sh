@@ -2,9 +2,16 @@
 
 # Argumentos dados para scripts (ou funções) são acessados pelo seu número
 # $1, $2, $3...
-# Há também variáveis especiais:
+# Há também outras variáveis especiais:
+#     $0 -> nome do próprio script/função
 #     $# -> número de argumentos
 #     $@ -> todos os argumentos, separados por ' '
+#     $? -> valor de retorno do último comando
+#     $$ -> PID do shell
+#     $! -> PID do último comando em background
+
+echo "$0 diz: 'Bom dia!'"
+echo
 
 echo Temos "$#" argumentos:
 echo -n "Tudo junto: "

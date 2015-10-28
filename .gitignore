@@ -1,3 +1,5 @@
 # backups de texto
 *~
 *.swp
+# arquivo criado
+ola*r
